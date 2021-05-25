@@ -1,0 +1,12 @@
+{
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "@typescript-eslint/semi": [
+      "error",
+      "never"
+    ]
+  },
+  "extends": "eslint-config-egg/typescript"
+}
